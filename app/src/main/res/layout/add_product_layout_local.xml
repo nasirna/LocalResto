@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/_12sdp"
+    android:orientation="vertical">
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Silahkan Pilih"
+        android:textColorHint="#05ab9a"
+        android:layout_alignParentTop="true"
+        app:met_floatingLabel="normal" />
+
+    <EditText
+        android:id="@+id/kode_kategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/kode_kategory"
+        android:textColorHint="@color/colorBorder"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:textSize="@dimen/_12sdp"
+        android:inputType="text"
+        android:background="@drawable/brown_border"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:visibility="gone"
+        android:textColor="@color/colorBlack"
+        android:padding="@dimen/_12sdp"/>
+
+    <EditText
+        android:id="@+id/enter_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_name"
+        android:textColorHint="@color/colorBorder"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:textSize="@dimen/_12sdp"
+        android:inputType="text"
+        android:background="@drawable/brown_border"
+        android:maxLines="1"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:textColor="@color/colorBlack"
+        android:padding="@dimen/_12sdp"/>
+
+</LinearLayout>

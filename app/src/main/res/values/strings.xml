@@ -1,0 +1,267 @@
+<resources>
+    <string name="app_name">POS mobile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_cart">Shopping cart</string>
+    <string name="daily_order">Daily Order</string>
+    <string name="new_order">New Order</string>
+    <string name="close_order">Close</string>
+    <string name="paid_order">Paid</string>
+
+    <string name="collapsed">collapsed: %s</string>
+    <string name="expanded">expanded: %s</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="restaurant_home">Home</string>
+
+    <string name="home">Home</string>
+    <string name="menu_categories">Menu categories</string>
+    <string name="menu_setting">Settings</string>
+    <string name="menu_laporan">Laporan</string>
+    <string name="menu_report">Report</string>
+    <string name="menu_items">Menu items</string>
+    <string name="order_history">Your Orders </string>
+    <string name="history_order">History Orders </string>
+    <string name="favorite_menu">Your Favorites</string>
+    <string name="master">Master</string>
+    <string name="master_data">Master Data</string>
+    <string name="hot_deals">Hot deals</string>
+    <string name="track_order">Order Tracking</string>
+    <string name="push_notification">Notification</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+
+    <string name="hello">Someone Like You</string>
+    <string name="adele">Adele</string>
+    <string name="product_name">Product name</string>
+    <string name="enter_jenis">Enter jenis</string>
+    <string name="enter_name">Enter name</string>
+    <string name="kode_kategory">Kode Kategory</string>
+    <string name="enter_quantity">Enter quantity</string>
+    <string name="enter_description">Enter description</string>
+    <string name="enter_price">Enter price</string>
+    <string name="enter_here">Enter Here</string>
+    <string name="spinner_title">Select Category</string>
+
+    <string name="text_bluetooth_off">Bluetooth is Off</string>
+    <string name="text_bluetooth_on">Bluetooth is On</string>
+
+    <string name="text_lap_harian">Cetak Laporan Harian</string>
+    <string name="text_lap_bulanan">Cetak Laporan Bulanan</string>
+
+    <string name="slogan">The best restaurant that offers delicious and healthy food in town. Place an order and get it delivered between 2 hours irrespective of your location.</string>
+    <string name="slogan2">The best services that offers delicious and healthy food in town.</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="no_text"> </string>
+    <string name="name_hint">Name</string>
+    <string name="username_hint">Username</string>
+    <string name="email_hint">Email</string>
+    <string name="address_hint">Address</string>
+    <string name="description_hint">Description</string>
+    <string name="opening_time_hint">Opening Time</string>
+    <string name="phone_number_hint">Phone number</string>
+    <string name="city_hint">City</string>
+    <string name="propinsi_hint">Propinsi</string>
+    <string name="password_hint">Password</string>
+    <string name="hargaitem_hint">Harga</string>
+    <string name="jumlahitem_hint">Jumlah</string>
+    <string name="member">Users</string>
+    <string name="tanda_satuan">@</string>
+    <string name="login_page">Login Page</string>
+    <string name="fill_all_fields">All fields must be filled</string>
+    <string name="invalid_email">You have entered invalid email</string>
+    <string name="failed_login">Login failed!! Try again</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="terms_of_service">By signing up you agree to the terms of service and privacy policy</string>
+    <string name="sign_in_account">Create new account</string>
+    <string name="failed_registration">User registration failed. Please try again</string>
+    <string name="maximum_length">Name or Username length must be greater than 5</string>
+    <string name="title_activity_main">Main Restaurant</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="havana">Havana Restaurant n Bar</string>
+    <string name="location">Nygatan 20, 24241 Horby Sweden</string>
+    <string name="restuarant_home">Restaurant Home</string>
+    <string name="opening_hours">Open until 10 pm week days and 11 pm weekends</string>
+    <string name="test">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</string>
+    <string name="our_meals">Our Meals</string>
+    <string name="goto_menu">GO TO MENU</string>
+    <string name="call_us">CALL US</string>
+    <string name="pizza">Pizza</string>
+    <string name="manu_categories">Menu Categories</string>
+    <string name="paparika_salad">Paparika Salad with Chicken</string>
+    <string name="price">$30.00</string>
+    <string name="with_meat">With meat</string>
+    <string name="view_details">View details</string>
+    <string name="pizza_categories">Pizza Categories</string>
+    <string name="shrimps_with_potato">Shrimps with potato</string>
+    <string name="menu_details_and_nutrition">Menu details and nutrition</string>
+    <string name="item_quantity">Item Quantity</string>
+    <string name="item_options">Item Options</string>
+    <string name="add_note">ADD NOTE</string>
+    <string name="add_to_cart"> ADD TO CART</string>
+    <string name="search">Search</string>
+    <string name="favorite_menu_items">Favorite Menu</string>
+    <string name="salad_cream">Salad Cream</string>
+    <string name="my_history">Order History</string>
+    <string name="_15_october_2016">15 October, 2016</string>
+    <string name="delivered">DELIVERED</string>
+    <string name="rice_and_beans">Rice and beans with stew</string>
+    <string name="tracking_on">Tracking on</string>
+    <string name="hot_deal_menus">Trending Hot Deals</string>
+    <string name="my_profile">Profile</string>
+    <string name="philips_johnson">Philips Johnson</string>
+    <string name="profile_address">Nygatan 20, Horby, Sweden</string>
+    <string name="address">Address: </string>
+    <string name="city">City: </string>
+    <string name="propinsi">Propinsi: </string>
+    <string name="phone">Phone:</string>
+    <string name="phone_number">+46720199164</string>
+    <string name="edit_profile">EDIT PROFILE</string>
+    <string name="edit_cart">EDIT CART</string>
+    <string name="this_week_menu">OUR WEEKLY MENU</string>
+    <string name="contact_information">Contact Information</string>
+    <string name="email">Email</string>
+    <string name="havanarestaurant_yahoo_com">havanarestaurant@yahoo.com</string>
+    <string name="view_detail">View details</string>
+    <string name="view_hot_deals">VIEW HOT DEALS</string>
+    <string name="edit_user_profile">Edit User Profile</string>
+    <string name="cannot_edit_user">Cannot edit user! Please try again</string>
+    <string name="update_success">User profile successfully update</string>
+    <string name="customize_your_order">CUSTOMIZE YOUR ORDER</string>
+    <string name="no_information">No information found about this menu</string>
+    <string name="no_option_item">There is no option in this menu item</string>
+    <string name="add_note_to_menu_item_optional">Add note to menu item (optional)</string>
+    <string name="order_items">Items: </string>
+    <string name="two">2</string>
+    <string name="total">Total </string>
+    <string name="amount">$49.50</string>
+    <string name="total_amount">Amount</string>
+    <string name="vat_amount">$0.00</string>
+    <string name="order_vat">VAT</string>
+    <string name="order_ppn">Pajak</string>
+    <string name="order_disc">Disc</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="add_extra_pepper">Add extra pepper, sauce, chicken</string>
+    <string name="remove_order_item">Remove</string>
+    <string name="minus">-</string>
+    <string name="plus_button">+</string>
+    <string name="your_cart">Your Cart</string>
+    <string name="back_to_menu">BACK TO MENU</string>
+    <string name="proceed_to_payment">PROCEED TO PAYMENT</string>
+    <string name="order_item_list">Order Item List</string>
+    <string name="add_new_delivery_address">ADD NEW DELIVERY ADDRESS</string>
+    <string name="select_payment_method">ADD NEW CARD PAYMENT</string>
+    <string name="place_an_order_now">PLACE AN ORDER NOW</string>
+    <string name="print_list">Print List</string>
+    <string name="select_a_payment_method">SELECT A PAYMENT METHOD</string>
+    <string name="pay_with_pay_pal">PAY WITH PAY PAL</string>
+    <string name="pay_with_credit_card">PAY WITH CREDIT CARD</string>
+    <string name="pay_cash_on_delivery">PAY CASH ON DELIVERY</string>
+    <string name="your_primary_address">YOUR PRIMARY ADDRESS</string>
+    <string name="street">Street</string>
+    <string name="zip_code">Zip code</string>
+    <string name="country">Country</string>
+    <string name="save_new_address">SAVE NEW ADDRESS</string>
+    <string name="new_address">New delivery address</string>
+    <string name="my_checkout">Checkout</string>
+    <string name="your_saved_credit_card_details">YOUR SAVED CREDIT CARD DETAILS</string>
+    <string name="card_number">**** 73838</string>
+    <string name="cvc">CVC</string>
+    <string name="add_new_payment_credit_card">ADD NEW PAYMENT CREDIT CARD</string>
+    <string name="credit_card_number">Card number</string>
+    <string name="expiration_date">Expiration date</string>
+    <string name="save_new_credit_card">SAVE NEW CREDIT CARD</string>
+    <string name="add_new_card_title">Add new credit card</string>
+    <string name="order_comfirmation">ORDER CONFIRMATION</string>
+    <string name="order_thank_you">Thank you for placing your order with us. Your order ID is GHH1234</string>
+    <string name="order_message">We usually delivery our orders within an hour. We will keep you informed through out the steps until it gets to your door step through notification.</string>
+    <string name="start_order_tracking">START ORDER TRACKING</string>
+    <string name="order_processing_steps">ORDER PROCESSING STEPS</string>
+    <string name="order_completed">Order Completed</string>
+    <string name="order_in_delivery">Order in delivery</string>
+    <string name="order_in_process">Order in process</string>
+    <string name="order_has_been_placed">Order has been placed</string>
+    <string name="your_delivery_address">YOUR DELIVERY ADDRESS</string>
+    <string name="locate_and_track_with_map">LOCATE AND TRACK WITH MAP</string>
+    <string name="title_activity_order_tracking">Order Tracking</string>
+    <string name="distance_2_km">DISTANCE: 2 KM</string>
+    <string name="duration_2_4_mins">DURATION: 2.4 MINS</string>
+    <string name="timer_count_down">The order processing is in progress. Once the order status is on delivery, the timer will start counting down</string>
+    <string name="pref_header_notifications">Push Notifications</string>
+    <string name="pref_title_new_message_notifications">Register or unregister for hot deals and promotion Notification</string>
+    <string name="pref_header_general">Tab Menu Website</string>
+    <string name="push_notifications">Push Notification Settings</string>
+    <string name="past_orders">View Past Order</string>
+
+
+    <string name="scanning">Searching...</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="no_printer_connected">No printer is connected</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Search for devices</string>
+    <string name="connect_bluetooth_device_btn">Connect a Bluetooth Printer</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="print_btn">Print Receipt</string>
+    <string name="option_btn">Print Option</string>
+    <string name="bt_inquiry_btn">Inquiry Status</string>
+    <string name="quit_btn">Quit</string>
+    <string name="title_connecting">Connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="bt_not_enabled_leaving">Bluetooth is not enabled</string>
+    <string name="print_line">"--------------------------------"  </string>
+    <string name="alert_title">Re-connect</string>
+    <string name="alert_message">Would you like to re-connect with a bluetooth printer?</string>
+    <string name="alert_btn_positive">Yes</string>
+    <string name="alert_btn_negative">No</string>
+    <string name="contentdesctiption">content description</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <!-- Settings Activity Title -->
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="pajak">Pajak</string>
+    <string name="reply_title">Default reply action</string>
+    <string name="backup_data">Backup Data</string>
+    <string name="import_data">Import Data</string>
+    <string name="menu_table">Table</string>
+    <string name="menu_takeaway">Takeaway</string>
+    <string name="menu_all_print">All</string>
+
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="backup_before_import">Do you want backup curren database before import an old databas?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="delete">Delete</string>
+    <string name="select_file">Select file</string>
+    <string name="backup_empty">Backup file is empty</string>
+
+</resources>

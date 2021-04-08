@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/_12sdp"
+    android:orientation="vertical">
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Silahkan Pilih"
+        android:textColorHint="#05ab9a"
+        android:layout_alignParentTop="true"
+        app:met_floatingLabel="normal" />
+
+
+    <!--<EditText
+        android:id="@+id/"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_name"
+        android:textColorHint="@color/colorBorder"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:textSize="@dimen/_12sdp"
+        android:inputType="text"
+        android:background="@drawable/brown_border"
+        android:maxLines="1"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:textColor="@color/colorBlack"
+        android:padding="@dimen/_12sdp"/>
+
+    <EditText
+        android:id="@+id/enter_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_description"
+        android:textColorHint="@color/colorBorder"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:textSize="@dimen/_12sdp"
+        android:inputType="text"
+        android:background="@drawable/brown_border"
+        android:maxLines="1"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:textColor="@color/colorBlack"
+        android:padding="@dimen/_12sdp"/>-->
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/enter_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Enter Name"
+            android:inputType="text"
+            android:maxLines="1" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/enter_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+
+            android:hint="Enter Description"
+            android:inputType="text"
+            android:maxLines="1" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--<faranjit.currency.edittext.CurrencyEditText
+        android:id="@+id/food_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_price"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/black"
+        app:groupDivider="."
+        app:monetaryDivider=","
+        app:showSymbol="false"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:maxLength="9"
+        android:padding="@dimen/_12sdp"/>-->
+
+    <ru.kolotnev.formattedittext.DecimalEditText
+        android:id="@+id/food_price"
+        android:hint="@string/enter_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        app:showSymbol="false"
+        android:gravity="end"
+        android:maxLength="12"
+        android:padding="@dimen/_8sdp"
+        app:rounding="0"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/fruits"
+            android:background="@color/colorPrimaryDark"/>
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="..Gambar"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/_12sdp"/>-->
+        <Switch
+            android:id="@+id/saklar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Activated" />
+    </RelativeLayout>
+
+
+</LinearLayout>

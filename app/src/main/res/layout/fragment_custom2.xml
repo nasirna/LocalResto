@@ -1,0 +1,638 @@
+<!--<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="#FFF5F5F5"
+    android:gravity="center"
+    tools:context=".DaftarMenuItemExpandActivityNew">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga Jual 1 " />
+
+         <ru.kolotnev.formattedittext.DecimalEditText
+            android:id="@+id/food_price1"
+            android:hint="@string/enter_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            app:showSymbol="false"
+            android:gravity="end"
+            android:maxLength="12"
+            android:padding="@dimen/_8sdp"
+            app:rounding="0"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga Jual 2 " />
+
+        <ru.kolotnev.formattedittext.DecimalEditText
+            android:id="@+id/food_price2"
+            android:hint="@string/enter_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            app:showSymbol="false"
+            android:gravity="end"
+            android:maxLength="12"
+            android:padding="@dimen/_8sdp"
+            app:rounding="0"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga Jual 3 " />
+
+        <ru.kolotnev.formattedittext.DecimalEditText
+            android:id="@+id/food_price3"
+            android:hint="@string/enter_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            app:showSymbol="false"
+            android:gravity="end"
+            android:maxLength="12"
+            android:padding="@dimen/_8sdp"
+            app:rounding="0"/>
+
+    </TableRow>
+
+
+</TableLayout>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ICC Ranking of Players:"
+        android:textSize = "20dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TableRow android:background="#51B435" android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rank" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Player" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Team" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Points" />
+    </TableRow>
+
+    <TableRow android:background="#F0F7F7" android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Virat Kohli" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="IND" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="895" />
+
+    </TableRow>
+
+    <TableRow android:background="#F0F7F7" android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rohit Sharma" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="IND" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="863" />
+
+    </TableRow>
+
+    <TableRow android:background="#F0F7F7" android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Faf du Plessis" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PAK" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="834" />
+
+    </TableRow>
+
+    <TableRow android:background="#F0F7F7" android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Steven Smith" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AUS" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="820" />
+    </TableRow>
+
+    <TableRow android:background="#F0F7F7" android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ross Taylor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NZ" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="817" />
+
+    </TableRow>
+
+</TableLayout>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_checkout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_4sdp"
+    android:background="#FFF5F5F5"
+    tools:context=".DaftarMenuItemExpandActivityNew">
+
+     <LinearLayout
+            android:id="@+id/activity_cart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/_8sdp"
+            android:paddingRight="@dimen/_8sdp"
+         android:paddingTop="@dimen/_16sdp"
+            tools:context=".DaftarMenuItemExpandActivityNew">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="12"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:layout_marginRight="@dimen/_8sdp"
+                    android:padding="@dimen/_8sdp"
+                    android:text="Harga Jual 1"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_14sdp"/>
+
+                <TextView
+                    android:id="@+id/order_item_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp"
+                    android:text=":"
+                    android:textSize="@dimen/_14sdp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:orientation="horizontal">
+
+                    <ru.kolotnev.formattedittext.DecimalEditText
+                        android:id="@+id/food_price1"
+                        android:hint="@string/enter_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberSigned"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_20sdp"
+                        android:textStyle="bold"
+                        app:showSymbol="false"
+                        android:gravity="end"
+                        android:maxLength="12"
+                        android:padding="@dimen/_8sdp"
+                        app:rounding="0"/>
+
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:layout_marginRight="@dimen/_8sdp"
+                        android:text="@string/subtotal"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_14sdp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" : "
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_14sdp"
+                        android:textStyle="bold" />-->
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--<LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/order_total_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/amount"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>-->
+
+
+        </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:baselineAligned="false"
+             android:orientation="horizontal">
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="12"
+                 android:orientation="horizontal">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginEnd="@dimen/_8sdp"
+                     android:layout_marginRight="@dimen/_8sdp"
+                     android:padding="@dimen/_8sdp"
+                     android:text="Harga Jual 2"
+                     android:textColor="@color/colorBlack"
+                     android:textSize="@dimen/_14sdp"/>
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:padding="@dimen/_8sdp"
+                     android:text=":"
+                     android:textSize="@dimen/_14sdp"/>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="4"
+                     android:orientation="horizontal">
+
+                     <ru.kolotnev.formattedittext.DecimalEditText
+                         android:id="@+id/food_price2"
+                         android:hint="@string/enter_price"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:inputType="numberSigned"
+                         android:textColor="@color/colorBlack"
+                         android:textSize="@dimen/_20sdp"
+                         android:textStyle="bold"
+                         app:showSymbol="false"
+                         android:gravity="end"
+                         android:maxLength="12"
+                         android:padding="@dimen/_8sdp"
+                         app:rounding="0"/>
+
+                     <!--<TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginEnd="@dimen/_8sdp"
+                         android:layout_marginRight="@dimen/_8sdp"
+                         android:text="@string/subtotal"
+                         android:textColor="@color/colorBlack"
+                         android:textSize="@dimen/_14sdp"
+                         android:textStyle="bold" />
+
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text=" : "
+                         android:textColor="@color/colorBlack"
+                         android:textSize="@dimen/_14sdp"
+                         android:textStyle="bold" />-->
+
+                 </LinearLayout>
+
+             </LinearLayout>
+
+             <!--<LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="2"
+                 android:gravity="end"
+                 android:orientation="horizontal">
+
+                 <TextView
+                     android:id="@+id/order_total_amount"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/amount"
+                     android:textColor="@color/colorBlack"
+                     android:textSize="@dimen/_14sdp"
+                     android:textStyle="bold" />
+
+             </LinearLayout>-->
+
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:baselineAligned="false"
+             android:orientation="horizontal">
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="12"
+                 android:orientation="horizontal">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginEnd="@dimen/_8sdp"
+                     android:layout_marginRight="@dimen/_8sdp"
+                     android:padding="@dimen/_8sdp"
+                     android:text="Harga Jual 3"
+                     android:textColor="@color/colorBlack"
+                     android:textSize="@dimen/_14sdp"/>
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:padding="@dimen/_8sdp"
+                     android:text=":"
+                     android:textSize="@dimen/_14sdp"/>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="4"
+                     android:orientation="horizontal">
+
+                     <ru.kolotnev.formattedittext.DecimalEditText
+                         android:id="@+id/food_price3"
+                         android:hint="@string/enter_price"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:inputType="numberSigned"
+                         android:textColor="@color/colorBlack"
+                         android:textSize="@dimen/_20sdp"
+                         android:textStyle="bold"
+                         app:showSymbol="false"
+                         android:gravity="end"
+                         android:maxLength="12"
+                         android:padding="@dimen/_8sdp"
+                         app:rounding="0"/>
+
+                     <!--<TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginEnd="@dimen/_8sdp"
+                         android:layout_marginRight="@dimen/_8sdp"
+                         android:text="@string/subtotal"
+                         android:textColor="@color/colorBlack"
+                         android:textSize="@dimen/_14sdp"
+                         android:textStyle="bold" />
+
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text=" : "
+                         android:textColor="@color/colorBlack"
+                         android:textSize="@dimen/_14sdp"
+                         android:textStyle="bold" />-->
+
+                 </LinearLayout>
+
+             </LinearLayout>
+
+             <!--<LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="2"
+                 android:gravity="end"
+                 android:orientation="horizontal">
+
+                 <TextView
+                     android:id="@+id/order_total_amount"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/amount"
+                     android:textColor="@color/colorBlack"
+                     android:textSize="@dimen/_14sdp"
+                     android:textStyle="bold" />
+
+             </LinearLayout>-->
+
+
+         </LinearLayout>
+    </LinearLayout>
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/place_an_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="@dimen/_16sdp"
+        android:text="@string/place_an_order_now"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_8sdp"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_4sdp">
+
+        <Button
+            android:id="@+id/btn_printList"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/_4sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:textColor="@color/colorWhite"
+            android:text="Print All List"
+            android:textSize="@dimen/_12sdp"
+            android:background="@color/colorPrimary"/>
+
+        <Button
+            android:id="@+id/btn_reprint"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:text="re-Print Bill"
+            android:textSize="@dimen/_12sdp"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

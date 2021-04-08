@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "com.food.localresto"
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation('com.paypal.sdk:paypal-android-sdk:2.16.0') {
+        exclude group: 'io.card'
+    }
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.preference:preference:1.1.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.navigation:navigation-fragment:2.1.0'
+    implementation 'androidx.navigation:navigation-ui:2.1.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+
+//nsr nb
+    implementation 'androidx.cardview:cardview:1.0.0'
+    ///implementation 'com.google.android.material:material:1.1.0'
+
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.android.support:design:30.0.0'
+    implementation 'com.google.code.gson:gson:2.6.1'
+    implementation 'com.mcxiaoke.volley:library:1.0.19'
+    implementation 'de.hdodenhof:circleimageview:1.2.1'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    implementation 'com.android.support:recyclerview-v7:30.0.0'
+    implementation 'com.android.support:support-v4:30.0.0'
+    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
+    implementation 'org.greenrobot:eventbus:3.0.0'
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.6.+'
+    implementation 'com.weiwangcn.betterspinner:library-material:1.1.0'
+    implementation 'org.fabiomsr:moneytextview:1.1.0'
+    implementation 'ru.kolotnev:formatt-edit-text:0.7'
+    implementation 'com.github.faranjit:currency-edittext:1.0.1'
+    implementation "android.arch.lifecycle:extensions:1.1.1"
+    //implementation 'com.google.android.material:material:1.2.1'
+    debugImplementation 'com.amitshekhar.android:debug-db:1.0.6'
+
+    implementation files('libs/RTDriver.jar')
+    implementation files('libs/activation.jar')
+    implementation files('libs/additionnal.jar')
+    implementation files('libs/mail.jar')
+
+            ///
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+}

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_16sdp">
+
+<com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/spinnerDisc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Silahkan Pilih"
+        android:textColorHint="#05ab9a"
+        android:layout_alignParentTop="true"
+        app:met_floatingLabel="normal" />
+
+    <!--<TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textViewDisc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disc" />
+
+        <ru.kolotnev.formattedittext.DecimalEditText
+            android:id="@+id/disc"
+            android:hint="@string/enter_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            app:showSymbol="false"
+            android:gravity="end"
+            android:maxLength="12"
+            android:padding="@dimen/_8sdp"
+            app:rounding="0"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga Jual 2 " />
+
+        <ru.kolotnev.formattedittext.DecimalEditText
+            android:id="@+id/food_price2"
+            android:hint="@string/enter_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            app:showSymbol="false"
+            android:gravity="end"
+            android:maxLength="12"
+            android:padding="@dimen/_8sdp"
+            app:rounding="0"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga Jual 3 " />
+
+        <ru.kolotnev.formattedittext.DecimalEditText
+            android:id="@+id/food_price3"
+            android:hint="@string/enter_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            app:showSymbol="false"
+            android:gravity="end"
+            android:maxLength="12"
+            android:padding="@dimen/_8sdp"
+            app:rounding="0"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar" />
+    </TableRow>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_8sdp">
+
+        <RadioButton
+            android:id="@+id/pay_pal_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_32sdp"
+            android:text="@string/pay_with_pay_pal"
+            android:textColor="@color/colorBorder"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/credit_card_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_32sdp"
+            android:text="@string/pay_with_credit_card"
+            android:textColor="@color/colorBorder"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/cash_on_delivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/pay_cash_on_delivery"
+            android:textColor="@color/colorBorder"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+    </RadioGroup>-->
+
+
+</LinearLayout>
+<!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#8bae3a"
+    tools:context=".DaftarMenuItemExpandActivityNew">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TableLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_blue_dark">
+
+                    <TextView
+                        android:text="Row 1"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_blue_light">
+
+                    <TextView
+                        android:text="Row 2"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_blue_bright">
+
+                    <TextView
+                        android:text="Row 3"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:text="Second column, rowspan 3"
+                android:background="@android:color/holo_purple"
+                android:gravity="center"/>
+
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>-->

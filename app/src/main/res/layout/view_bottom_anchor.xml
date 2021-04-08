@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="center_horizontal|top"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/checkout_item_root"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:clickable="true">
+
+        <FrameLayout
+            android:id="@+id/item_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="40">
+
+            <ImageView
+                android:id="@+id/img_counter"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/cart"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/item_count"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_gravity="top|right"
+                android:gravity="center"
+                android:text="0"
+                android:background="@color/colorAccent"
+                android:padding="@dimen/_2sdp"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+
+
+        <FrameLayout
+            android:id="@+id/checkout_envelop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true">
+
+            <org.fabiomsr.moneytextview.MoneyTextView
+                android:id="@+id/jml_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                app:symbol="Rp"
+                app:symbolGravity="start|bottom"
+                app:symbolTextSize="20sp"
+                app:symbolMargin="6dp"
+                app:amount="1256.99"
+                app:decimalDigitsTextSize="0dp"
+                app:includeDecimalSeparator="false"
+                app:baseTextColor="#FBFFE3"/>
+
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

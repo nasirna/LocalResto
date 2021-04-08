@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_more"
+        android:icon="@drawable/ic_more"
+        android:title="Menu"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/menu_table"
+                android:orderInCategory="100"
+                android:title="@string/menu_table"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/menu_takeaway"
+                android:orderInCategory="100"
+                android:title="@string/menu_takeaway"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/menu_all_print"
+                android:orderInCategory="100"
+                android:title="@string/menu_all_print"
+                app:showAsAction="never" />
+
+        </menu>
+    </item>
+
+
+    <!--<item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />-->
+
+    <item
+        android:id="@+id/tableresto"
+        android:title="Table"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_shop"
+        android:orderInCategory="100"
+        android:title="@string/action_cart"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
